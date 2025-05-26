@@ -1,0 +1,16 @@
+@font-face{
+  font-family: Naum;
+  src: url('./assets/fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf');
+
+}
+@import "tailwindcss";
+
+/* set up primary and secondary colors in tailwind css */
+@theme {
+  --color-brand-green: #395043;
+  --color-brand-white: #fdf5df;
+  --color-brand-black: #252d2f;
+  --font-naum: naum, "cursive";
+}
+
+
