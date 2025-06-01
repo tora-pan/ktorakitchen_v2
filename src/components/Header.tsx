@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <nav
       id="navigation"
-      className="z-30 hidden sm:flex items-center justify-center space-x-3 w-full sticky top-0 text-sm font-bold uppercase py-3 px-1 bg-gradient-to-b from-neutral-100 to-[rgba(250,250,249,0.75)] backdrop-blur-md transition-shadow duration-500 "
+      className="z-30 hidden sm:flex items-center justify-center space-x-3 w-full sticky top-0 text-sm font-bold uppercase py-3 backdrop-blur-md transition-shadow duration-500 overflow-x-hidden"
     >
       <a
         href="#our-story"
